@@ -36,25 +36,32 @@
 .hero-container{
     width: 1140px;
     height: 100%;
-    background-image: url("./img/pngwing 10.png");
+    background-image: url("./img/Union.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top right;
     display: flex;
     align-items: center;
     margin: 0 auto;
+    position: relative;
 }
-.hero-left{
+.hero-container .hero-left-content img{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    width: 10%;
+}
+.hero-left-content{
     width: 50%;
 
 }
-.hero-left h2{
+.hero-left-content h2{
     color: #272727;
     font-size: 50px;
     font-weight:800;
     font-style: italic;
 }
-.hero-left p{
+.hero-left-content p{
     font-size: 10px;
     margin-top: 20px;
     white-space: 15px;
