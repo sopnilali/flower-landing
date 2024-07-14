@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,25 @@
     <title>Welcome to Flower</title>
 </head>
 <body>
+    <header>
+        <div class="nav-main-container">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="./img/fb logo.png" alt="">
+                    <h3>Facebook</h3>
+                </div>
+                <div class="nav-box">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#flowers">Flowers</a></li>
+                    <li><a href="#ftree">Flower Tree</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </div>
+                <div class="nav-button">
+                    <button  type="submit">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
         <section class="hero-main-container">
             <div class="hero-container">
@@ -17,13 +36,13 @@
                         <p class="hero-des">It is a long established fact that a reader will be distracted by the readable
                             content of a page when looking at its layout. The point of using Lorem Ipsum is
                             that it has a more-or-less normal distribution of letters.</p>
-                            <button class="hero-btn">Shop Now</button>
+                            <button class="primary-btn">Shop Now</button>
                         <img src="./img/kindpng_1701578 1.png" alt="">
                 </div>
             </div>
         </section>
         <!-- featured section start -->
-        <section class="feature-main-container">
+        <section class="feature-main-container" id="flowers">
                 <div class="feature-header">
                     <h2 class="primary-title"> Our Featured Flowers</h2>
                     <p class="primary-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, debitis minus deleniti delectus magnam harum voluptates repellat. </p>
@@ -45,7 +64,7 @@
 
                 </div>
     
-            <div class="icon-container">
+            <div class="icon-container"id="ftree">
                 <div class="icon-box">
                     <img src="./img/Group 57.png" alt="">
                 <p>Same Day Delivery. Click & Collect.</p>
@@ -89,7 +108,7 @@
  </section>
 <!-- shop section start -->
 
-<section class="shop-main-container">
+<section class="shop-main-container" id="contact">
     <div class="shop-container">
        <div class="shop-box">
             <h2 class="shop-title">Get The Latest Deals</h2>
